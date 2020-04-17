@@ -1,7 +1,9 @@
-# Movie Seat Booking 
+# Exchange Rate Calculator
 
 ## Project Preview
 ![](exchange-rate.gif)
+
+[**VIEW DEMO**](https://kelenam.github.io/exchange-rate-calculator/)
 
 ## Summary
 An exchange rate app with TS/Sass that uses local storage to persist data/selection in the browser. 
@@ -14,7 +16,7 @@ An exchange rate app with TS/Sass that uses local storage to persist data/select
 - I'd recommend using the VSCode Sass Plugin as well.  
 
 ## Project Insights
-> [^**If we are using async/await and we want to parse the request into JSON in the same line, what must we remember to do?**]In turning this into an async operation instead of using promises. it is possible to just .json() on the awaited response, HOWEVER, (and can VSCODE correct this for you), since remember, res.json() would still return a promise you need to wrap everyything and await it as well...
+> In turning this into an async operation instead of using promises. it is possible to just .json() on the awaited response, HOWEVER, (and can VSCODE correct this for you), since remember, res.json() would still return a promise you need to wrap everyything and await it as well...
 
 ```js {6-11}
 async function calculate() {
